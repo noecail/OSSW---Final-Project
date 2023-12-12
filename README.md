@@ -26,8 +26,7 @@ To use the Jupyter Notebook file, first run all the cells then use the trained m
 ## License
 GNU
 
-*
-## Making process
+*## Making process
 The dataset consists of four folders each containing a few hundreds of jpg pictures
 of tumored or healthy brains.
 
