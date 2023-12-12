@@ -13,7 +13,7 @@ The model is trained with dataset of four different tumor types and will be test
 List of the Python libraries used for this project : OS, Scikit-learn, Scikit-image, Numpy, Matplotlib.
 
 ## Making process
-(Refer to the bottom of this file)*
+Refer to the bottom of this file ↓
 
 ## The model itself
 rfc = sklearn.ensemble.RandomForestClassifier(random_state=55, bootstrap=False, max_depth=83, max_features='sqrt', min_samples_leaf=1, min_samples_split=5, n_estimators=270)
@@ -24,7 +24,7 @@ To use the Jupyter Notebook file, first run all the cells then use the trained m
 ## License
 GNU
 
-*## Making process
+## Making process
 The dataset consists of four folders each containing a few hundreds of jpg pictures
 of tumored or healthy brains.
 
