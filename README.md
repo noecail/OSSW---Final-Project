@@ -2,13 +2,12 @@
 # Noé Caillet - 50231569
 
 ## Motivation
-The building of this model is the purpose of the final project of the OpenSource Software class at Chung-Ang University.
-The project was made during december, 2023
+The building of this model is the purpose of the final project of the OpenSource Software class at Chung-Ang University.  
+The project was made during december, 2023  
 Author : Noé Caillet
 
-This project is about finding the best model to fit a set of training data points.
-The model is trained with dataset of four different tumor types and will be tested on a
-test dataset that is unknown at the time of the training phase.
+This project is about finding the best model to fit a set of training data points.  
+The model is trained with dataset of four different tumor types and will be tested on a test dataset that is unknown at the time of the training phase.
 
 ## Libraries used
 List of the Python libraries used for this project : OS, Scikit-learn, Scikit-image, Numpy, Matplotlib.
@@ -17,8 +16,7 @@ List of the Python libraries used for this project : OS, Scikit-learn, Scikit-im
 (Refer to the bottom of this file)*
 
 ## The model itself
-> rfc = sklearn.ensemble.RandomForestClassifier(random_state=55, bootstrap=False, max_depth=83, max_features='sqrt', min_samples_leaf=1, min_samples_split=5, n_estimators=270)
-
+rfc = sklearn.ensemble.RandomForestClassifier(random_state=55, bootstrap=False, max_depth=83, max_features='sqrt', min_samples_leaf=1, min_samples_split=5, n_estimators=270)
 
 ## Usage
 To use the Jupyter Notebook file, first run all the cells then use the trained model on you test dataset.
