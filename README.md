@@ -56,5 +56,5 @@ training process.
 The idea here is to get more precise on the hyperparameters values I got from the first
 step.
 
-3)At the very end, I tried different values of random_parameter. The one I chose gave me
+3) At the very end, I tried different values of random_parameter. The one I chose gave me
 an accuracy of 0.92 on the given dataset.
